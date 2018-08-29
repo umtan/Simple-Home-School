@@ -1,0 +1,28 @@
+<html>
+<title> </title>
+<body bgcolor="LightSalmon">
+<p> <h2> Welcome for last time for today, Emilia ! </h2> <br><br> 
+
+<h3>Your last activity is : <br> Look at family pictures together </h3><br><br> When completed your acitivity check the box
+
+
+
+ <input type="checkbox" id="myCheck"  onclick="myFunction()">
+
+<p id="text" style="display:none">Congratulation Emilia!<br> You have done a wonderful job.<br> You have completed all activities for today.<br> Thank you Very much.<br><a href="index.htm">Click</a> for Homepage</p>
+
+<script>
+function myFunction() {
+    var checkBox = document.getElementById("myCheck");
+    var text = document.getElementById("text");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+}
+
+
+</script>
+ </body>
+</html>

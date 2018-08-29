@@ -1,0 +1,28 @@
+<html>
+<title> </title>
+<body bgcolor="lightblue">
+<p> <h1>Welcome Henry</h1> <br><br> <h2>You have following activities for today</h2><br><br>
+<br>
+<h3>Go outside and feel the surfaces with your kid.</h3><br><br> When done check the box
+
+
+
+ <input type="checkbox" id="myCheck"  onclick="myFunction()">
+
+<p id="text" style="display:none">Your first job is done!<br><a href="age1a.htm">Click</a> for next activity</p>
+
+<script>
+function myFunction() {
+    var checkBox = document.getElementById("myCheck");
+    var text = document.getElementById("text");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+}
+
+
+</script>
+ </body>
+</html>

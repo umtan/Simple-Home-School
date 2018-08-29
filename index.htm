@@ -1,0 +1,44 @@
+<html>
+<head><title> parentspage</title> </head>
+<h1> <font color = "navy"> Welcome to Home School site</h1>
+
+<body bgcolor="pink">
+
+<input id="myInput" type="text" value="">
+<button onclick="Homework()">Activities</button>
+<p id="demo"></p>
+
+<script type ="text/javascript" language="javascript">
+
+
+function Homework() {
+
+
+
+var name = document.getElementById
+("myInput").value;
+  
+switch(name) {
+    case "Henry":
+      window.open("age1.htm");  
+      break;
+    case "Ada":
+      window.open("age4.htm");
+      break;
+case "Emilia":
+      window.open("age2.htm");
+      break;
+case "Biff":
+      window.open("age3.htm");
+      break;
+
+default:
+      window.open("registration.htm");
+}
+  document.getElementById("demo").innerHTML = Demo;
+}
+
+</script>
+
+
+</body></html>
